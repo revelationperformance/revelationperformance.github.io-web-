@@ -38,7 +38,7 @@ let franchiseListTurkey = [
 let franchiseListUkraine = [
     {
         city: "Kharkiv",
-        number: "+380 635 592 79 0",
+        number: "+38 063 559 2790",
         instagram: "https://www.instagram.com/revelationperformance.ua/",
     }
 ]
