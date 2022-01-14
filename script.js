@@ -120,7 +120,6 @@ let langLoader = async function (lang) {
 
 async function langUpdate (lang) {
     const footerYear = document.querySelector(".footer-bottom");
-    console.log(footerYear);
     const year = new Date();
     footerYear.innerHTML =
     `
