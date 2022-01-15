@@ -128,6 +128,17 @@ async function langUpdate (lang) {
 
     document.querySelector(".social h2").innerHTML = langObject["follow-us"];
     document.querySelector(".footer .info p").innerHTML = langObject["footer-short-info"];
+    
+    let upperDivs = document.querySelector(".upper-slider");
+    upperDivs.innerHTML = "";
+    for (let i = 1; i < 6; i++) {
+        upperDivs.innerHTML += 
+        `
+        <div class='upper-info-div'>
+            <p>${langObject['contact_divs_' + i]}</p>
+        </div>
+        `
+    }
 
     langGauge.title = langObject["lang-changer"];
     document.querySelector(".turkey-map").title = langObject["map.turkey"]
