@@ -1727,7 +1727,7 @@ svg path:hover {
     align-items: center;
     justify-content: center;
     position: absolute;
-    transform: rotate(-90deg) translate(10%, -15px);
+    transform: rotate(-90deg) translate(15%, -15px);
     width: 200px;
     color: black;
     font-size: 20px;
