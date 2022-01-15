@@ -1336,10 +1336,38 @@ a{
     display: none;
 }
 
-.logo, .logo * {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.logo * {
+    display: block;
+}
+
+.logo p, .logo span {
+    font-family: aircona !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.7;
+    color: rgb(0, 0, 0);
+    font-weight: 550;
+    color: white;
+}
+
+.logo p:first-child span {
+    font-size: 30px;
+}
+
+.logo span:first-child {
+    color: red;
+}
+
+.logo p:nth-child(2) {
+    font-size: 16px;
 }
 
 .contact-center {
