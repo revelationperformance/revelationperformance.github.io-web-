@@ -1746,6 +1746,10 @@ svg path:hover {
     width: 250px;
 }
 
+.contact-info-div {
+    flex-direction: column;
+}
+
 .upper-slider {
     margin-top: 150px;
     width: 80vw;
